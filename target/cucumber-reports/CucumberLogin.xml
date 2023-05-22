@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="38.304" tests="3" skipped="0" failures="0" errors="0">
+<testcase classname="Login page of PetStore" name="Login with valid data - Example #1.1" time="13.974">
+<system-out><![CDATA[
+Given I am a user who launched the homepage of JPetStore....................passed
+When I click on the SignIn link.............................................passed
+Then SignIn page should be opened...........................................passed
+When I enter the username as "j2ee".........................................passed
+And I enter the password....................................................passed
+And I click on the Login button.............................................passed
+Then I should be logged in with my account..................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login page of PetStore" name="Order fish" time="12.626">
+<system-out><![CDATA[
+Given I am a user who launched the homepage of JPetStore....................passed
+When I click on the SignIn link.............................................passed
+Then SignIn page should be opened...........................................passed
+When I enter the username...................................................passed
+And I enter the password....................................................passed
+And I click on the Login button.............................................passed
+Then I should be logged in with my account..................................passed
+When I click on Fish link...................................................passed
+And I click on FI-SW-01.....................................................passed
+And I click on EST-1........................................................passed
+And I click on Add to Cart..................................................passed
+And I click on Proceed to Checkout..........................................passed
+And I click on Continue.....................................................passed
+And I click on Confirm......................................................passed
+Then My order must be placed................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login page of PetStore" name="Order birds" time="11.353">
+<system-out><![CDATA[
+Given I am a user who launched the homepage of JPetStore....................passed
+When I click on the SignIn link.............................................passed
+Then SignIn page should be opened...........................................passed
+When I enter the username "j2ee"............................................passed
+And I enter the password....................................................passed
+And I click on the Login button.............................................passed
+Then I should be logged in with my account..................................passed
+When I click on Bird link...................................................passed
+And I click on AV-CB-01.....................................................passed
+And I click on EST-18.......................................................passed
+And I click on Add to Cart..................................................passed
+And I click on Proceed to Checkout..........................................passed
+And I click on Continue.....................................................passed
+And I click on Confirm......................................................passed
+Then My order must be placed................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

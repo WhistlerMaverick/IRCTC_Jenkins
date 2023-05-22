@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="18.167" tests="2" skipped="0" failures="2" errors="0">
+<testcase classname="Nyka search" name="I want to seach for tshirt on nyka search bar - Example #1.1" time="10.013">
+<failure/>
+<system-out><![CDATA[
+Given I am a background task................................................passed
+Given I am a customer who launched the website to buy a tshirt "Akash"......undefined
+When I am searching into the seach bar by typing tshirt "10"................skipped
+And Hit enter key to search.................................................skipped
+Then I must be able to see tshirt in my products page.......................skipped
+]]></system-out>
+</testcase>
+<testcase classname="Nyka search" name="I want to seach for tshirt on nyka search bar - Example #1.2" time="7.811">
+<failure/>
+<system-out><![CDATA[
+Given I am a background task................................................passed
+Given I am a customer who launched the website to buy a tshirt "Nesamani"...undefined
+When I am searching into the seach bar by typing tshirt "10"................skipped
+And Hit enter key to search.................................................skipped
+Then I must be able to see tshirt in my products page.......................skipped
+]]></system-out>
+</testcase>
+</testsuite>
